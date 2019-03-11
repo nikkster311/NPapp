@@ -1,0 +1,123 @@
+/* gold
+#FFA737
+
+orange
+#DC851F
+
+brown
+#7E5920
+
+green
+#45462A
+
+black
+#343330 */
+
+@media only screen and (max-width: 600px) {
+
+  .title {
+    position:fixed;
+  }
+
+  .parkName {
+    font-size: 1em;
+    background-color: #003;
+   }
+
+  .NPimages {
+    width: 90vw;
+    height: auto;
+    background-color: #003;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px #ddd;
+  }
+}
+
+
+
+
+
+
+
+
+
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: inherit;
+  height: 100%;
+  marin: 0, auto;
+  padding: 5px;
+  text-align: center;
+  background-image: linear-gradient(#FFA737, #DC851F);
+  color: #343330;
+  /* border: 10px solid #eee; */
+}
+
+.title {
+  float: left;
+  position:fixed;
+  font-size: .5em;
+  padding: 6px;
+  text-align: center;
+  color: #343330;
+  background-image: linear-gradient(#FFA737, #DC851F);
+  border: 2px solid #7E5920;
+  border-radius: 20px;
+}
+
+.parkContainer {
+  text-align: center;
+  display: block;
+  padding: 200px 0px;
+  height: relative;
+  width: 100%;
+  background-color: #45462A
+}
+
+#parkName {
+  text-align: center;
+  justify-content: center;
+  background-color: #7E5920;
+  color: #FFA737;
+  font-family: Arial;
+  border-radius: 3px;
+  border: none;
+}
+
+.parkName {
+  text-align: center;
+  display: inline-block;
+  border: 5px solid #7E5920;
+  font-size: 1em;
+  border-radius: 50px;
+  padding: 0px 50px;
+  margin: 20px 50px;
+  color: #343330;
+  background-image: linear-gradient(#FFA737, #DC851F);
+}
+
+.NPimages {
+  text-align: center;
+  display: block;
+  width: 70vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  box-shadow: 5px 5px #ddd;
+}
+
+#map {
+  height: 100%;
+}
+html, body {
+  height: 100%,auto;
+  margin: 0;
+  padding: 0;
+}
